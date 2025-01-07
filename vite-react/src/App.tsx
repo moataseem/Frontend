@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import './App.css'
-import { ToDoApp } from './Apps/TodoApp';
+import { ToDoAppWithZustand } from './Apps/ToDoApp-zustand';
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
   })
 
   return (
-    <ToDoApp />
+    <ToDoAppWithZustand />
   )
 }
 
